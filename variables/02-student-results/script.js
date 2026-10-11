@@ -18,6 +18,7 @@ subject3MarksEl.textContent = subject3Marks;
 
 const totalMarks = subject1Marks + subject2Marks + subject3Marks;
 
-const averageMark = totalMarks / 3
+const averageMark = Math.round(totalMarks / 3);
+
 
 
