@@ -1,8 +1,8 @@
-let studentName = "Wandile";
+const studentName = "Wandile Mjweni";
 
-let subject1Marks = 86;
-let subject2Marks = 76;
-let subject3Marks = 92;
+const subject1Marks = 86;
+const subject2Marks = 76;
+const subject3Marks = 92;
 
 const studentNameEl = document.querySelector("#student-name");
 studentNameEl.textContent = studentName;
@@ -17,6 +17,9 @@ const subject3MarksEl = document.querySelector("#subject-3-marks");
 subject3MarksEl.textContent = subject3Marks;
 
 const totalMarks = subject1Marks + subject2Marks + subject3Marks;
+
+const totalMarksEl = document.querySelector("#total-marks");
+totalMarksEl.textContent = totalMarks;
 
 const averageMark = Math.round(totalMarks / 3);
 
