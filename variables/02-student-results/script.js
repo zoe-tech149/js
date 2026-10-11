@@ -20,5 +20,7 @@ const totalMarks = subject1Marks + subject2Marks + subject3Marks;
 
 const averageMark = Math.round(totalMarks / 3);
 
+const averageMarkEl = document.querySelector("#student-average");
+averageMarkEl.textContent = averageMark;
 
 
