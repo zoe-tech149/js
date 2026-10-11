@@ -16,6 +16,8 @@ subject2MarksEl.textContent = subject2Marks;
 const subject3MarksEl = document.querySelector("#subject-3-marks");
 subject3MarksEl.textContent = subject3Marks;
 
-let totalMarks = subject1Marks + subject2Marks + subject3Marks;
+const totalMarks = subject1Marks + subject2Marks + subject3Marks;
+
+const averageMark = totalMarks / 3
 
 
