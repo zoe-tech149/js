@@ -1,11 +1,9 @@
-// Storing
 let studentName = "Wandile";
 
 let subject1Marks = 86;
 let subject2Marks = 76;
 let subject3Marks = 92;
 
-// Display
 const studentNameEl = document.querySelector("#student-name");
 studentNameEl.textContent = studentName;
 
@@ -17,4 +15,7 @@ subject2MarksEl.textContent = subject2Marks;
 
 const subject3MarksEl = document.querySelector("#subject-3-marks");
 subject3MarksEl.textContent = subject3Marks;
+
+let totalMarks = subject1Marks + subject2Marks + subject3Marks;
+
 
